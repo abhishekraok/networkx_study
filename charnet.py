@@ -12,6 +12,7 @@ import graph_analyze_mod_dir as gam
 #Create string for graph
 alphalist,chars = sfg.createstr() 
 
+
 # Create graph out of string with weighted edges
 G = sfg.createstrGraph(alphalist,chars) 
 
