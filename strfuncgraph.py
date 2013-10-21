@@ -8,11 +8,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pylab
 
-<<<<<<< HEAD
 def createstr():
-=======
-def createstrforgraph():
->>>>>>> 1ac0ffa4b0db2ed5db811b8b8ae53877ed921674
+
 #    fd = open('input_text.txt','r')
 #    chars = ''
 #    for line in fd:
@@ -26,12 +23,8 @@ def createstrforgraph():
     
     alphalist = set(chars)
     #alphalist = [chr(x) for x in range(ord('a'),ord('z'))]
-<<<<<<< HEAD
-    return alphalist,chars  
-=======
+
     return alphalist,chars
-    
->>>>>>> 1ac0ffa4b0db2ed5db811b8b8ae53877ed921674
     
 def createstrGraph(alphalist,chars):
     
@@ -51,11 +44,6 @@ def createstrGraph(alphalist,chars):
         xp=x
     return G
     
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1ac0ffa4b0db2ed5db811b8b8ae53877ed921674
 def drawstrGraph(G):  
     pos=nx.spring_layout(G)
     # version 2
